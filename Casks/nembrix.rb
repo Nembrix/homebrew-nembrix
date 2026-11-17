@@ -1,5 +1,5 @@
 cask "nembrix" do
-  version "0.5.3"
+  version "0.5.4"
 
   # Per-arch dmgs (no universal build). Homebrew picks the matching
   # arch; the release job fills in each sha256 below.
@@ -9,7 +9,7 @@ cask "nembrix" do
         verified: "github.com/Nembrix/nembrix/"
   end
   on_intel do
-    sha256 "9971cf1a7c5703760b6d567eaaa0ca43b7a49d9fe594c71e8d3290fecdf1918b"
+    sha256 "3c0ce54fe4032c8a2bbec090b32b0fc363e8f7f45fe94aa6aaaf73086f7dca07"
     url "https://github.com/Nembrix/nembrix/releases/download/v#{version}/Nembrix_#{version}_macOS_Intel.dmg",
         verified: "github.com/Nembrix/nembrix/"
   end
