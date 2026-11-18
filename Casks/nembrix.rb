@@ -1,5 +1,5 @@
 cask "nembrix" do
-  version "0.5.5"
+  version "0.6.0"
 
   # Per-arch dmgs (no universal build). Homebrew picks the matching
   # arch; the release job fills in each sha256 below.
